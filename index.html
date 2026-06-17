@@ -1,7 +1,19 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OptizymeAI</title><link rel="stylesheet" href="style.css"></head><body>
-<header><nav><div class="logo"><img src="logo.png" alt="OptizymeAI"></div>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OptizymeAI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">
+<img src="logo.png" alt="OptizymeAI">
+</div>
+
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="research.html">Research</a></li>
@@ -10,29 +22,81 @@
 <li><a href="collaborate.html">Collaborate</a></li>
 <li><a href="invest.html">Invest</a></li>
 <li><a href="join.html">Join Us</a></li>
-</ul></nav></header>
+</ul>
+</nav>
+</header>
 
 <section class="hero">
+
 <div class="hero-left">
-<h1>Engineering Biology<br><span class="gradient">With Artificial Intelligence</span></h1>
-<p>OptizymeAI develops next-generation enzymes using machine learning, computational biology and experimental validation.</p>
+
+<h1>
+Engineering Biology<br>
+<span class="gradient">With Artificial Intelligence</span>
+</h1>
+
+<p>
+AI-powered enzyme engineering for industrial biotechnology,
+sustainable manufacturing, and next-generation biocatalyst discovery.
+</p>
+
 <div class="hero-buttons">
-<a class="btn" href="technology.html">Explore Technology</a>
-<a class="btn-secondary" href="collaborate.html">Collaborate</a>
-<a class="btn-secondary" href="invest.html">Invest</a>
+
+<a class="btn" href="technology.html">
+Explore Technology
+</a>
+
+<a class="btn-secondary" href="collaborate.html">
+Collaborate
+</a>
+
+<a class="btn-secondary" href="invest.html">
+Invest
+</a>
+
 </div>
+
 </div>
-<div class="hero-right"><img src="Bg1.webp" alt="OptizymeAI"></div>
+
+<div class="hero-right">
+<img src="Bg1.webp" alt="OptizymeAI">
+</div>
+
 </section>
 
 <script>
-const heroImages=['Bg1.webp','Bg2.webp','Bg3.webp','Bg4.webp'];
-let currentImage=0;
-const heroImage=document.querySelector('.hero-right img');
-setInterval(()=>{
-currentImage=(currentImage+1)%heroImages.length;
-heroImage.style.opacity=0;
-setTimeout(()=>{heroImage.src=heroImages[currentImage];heroImage.style.opacity=1;},500);
-},6000);
+
+const heroImages = [
+'Bg1.webp',
+'Bg2.webp',
+'Bg3.webp',
+'Bg4.webp'
+];
+
+let currentImage = 0;
+
+const heroImage =
+document.querySelector('.hero-right img');
+
+setInterval(() => {
+
+currentImage =
+(currentImage + 1) % heroImages.length;
+
+heroImage.style.opacity = 0;
+
+setTimeout(() => {
+
+heroImage.src =
+heroImages[currentImage];
+
+heroImage.style.opacity = 1;
+
+}, 500);
+
+}, 6000);
+
 </script>
-</body></html>
+
+</body>
+</html>
