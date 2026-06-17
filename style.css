@@ -121,6 +121,25 @@ text-align:center;position:relative;overflow:hidden;
     -webkit-text-fill-color: transparent;
 
 }
+.slide {
+
+    transform: scale(1);
+
+    animation: zoom 8s linear infinite;
+
+}
+
+@keyframes zoom {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.08);
+    }
+
+}
 .btn{
 display:inline-block;padding:14px 28px;background:#00d4ff;color:#08111f;
 text-decoration:none;border-radius:10px;font-weight:bold;margin:10px;
