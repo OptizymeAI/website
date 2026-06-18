@@ -1,4 +1,246 @@
-<!DOCTYPE html><html><head><title>Our Research</title><link rel="stylesheet" href="style.css"></head><body>
-<header><nav><div class="logo"><img src="logo.png"></div></nav></header>
-<section class="section" style="padding-top:120px"><h1>Our Research</h1><p>Content coming soon.</p></section>
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research | OptizymeAI</title>
+<link rel="stylesheet" href="research.css">
+</head>
+<body>
+
+<header>
+<nav>
+
+<div class="logo">
+<a href="index.html">
+<img src="logo.webp" alt="OptizymeAI">
+</a>
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="research.html" class="active">Research</a></li>
+<li><a href="technology.html">Technology</a></li>
+<li><a href="team.html">Team</a></li>
+<li><a href="collaborate.html">Collaborate</a></li>
+<li><a href="invest.html">Invest</a></li>
+<li><a href="join.html">Join Us</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="research-hero">
+<h1>Research at OptizymeAI</h1>
+<p>
+Building the next generation of enzymes through artificial intelligence,
+computational biology and experimental science.
+</p>
+</section>
+
+<section class="research-program">
+
+<div class="research-image">
+<img src="archezyme.webp" alt="ArcheZyme">
+</div>
+
+<div class="research-content">
+
+<h2>ArcheZyme</h2>
+
+<h4>Engineering resilience beyond nature</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program reverse">
+
+<div class="research-image">
+<img src="fidelizyme.webp" alt="FideliZyme">
+</div>
+
+<div class="research-content">
+
+<h2>FideliZyme</h2>
+
+<h4>Precision through fidelity</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program">
+
+<div class="research-image">
+<img src="scalpelzyme.webp" alt="ScalpelZyme">
+</div>
+
+<div class="research-content">
+
+<h2>ScalpelZyme</h2>
+
+<h4>Enzymatic precision at molecular scale</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program reverse">
+
+<div class="research-image">
+<img src="architectzyme.webp" alt="ArchitectZyme">
+</div>
+
+<div class="research-content">
+
+<h2>ArchitectZyme</h2>
+
+<h4>Designing enzymes from first principles</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program">
+
+<div class="research-image">
+<img src="algozyme.webp" alt="AlgoZyme">
+</div>
+
+<div class="research-content">
+
+<h2>AlgoZyme</h2>
+
+<h4>Rule-based programmable biocatalysis</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program reverse">
+
+<div class="research-image">
+<img src="velozyme.webp" alt="VeloZyme">
+</div>
+
+<div class="research-content">
+
+<h2>VeloZyme</h2>
+
+<h4>Accelerating biological evolution</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="research-program">
+
+<div class="research-image">
+<img src="kalpakara.webp" alt="KalpaKara">
+</div>
+
+<div class="research-content">
+
+<h2>KalpaKara</h2>
+
+<h4>Imagining the future of biological intelligence</h4>
+
+<p>Short text</p>
+
+<button class="know-more" onclick="toggleContent(this)">
+Know More
+</button>
+
+<div class="expanded-content">
+<p>Long text</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="page-navigation">
+<a href="technology.html">
+Next → Technology
+</a>
+</div>
+
+<script>
+function toggleContent(button){
+
+const content = button.nextElementSibling;
+
+if(content.style.display === "block"){
+content.style.display = "none";
+button.innerText = "Know More";
+}
+else{
+content.style.display = "block";
+button.innerText = "Show Less";
+}
+}
+</script>
+
+</body>
+</html>
