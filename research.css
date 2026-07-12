@@ -23,3 +23,15 @@ nav a:hover{color:#00d4ff;}
 .page-navigation a{color:#00d4ff;font-size:1.2rem;text-decoration:none;}
 @media(max-width:1000px){.research-program,.reverse{flex-direction:column;text-align:center;}.research-image{flex:none;}.research-image img{width:100%;max-width:500px;height:auto;}}
 @media(max-width:900px){nav{flex-direction:column;gap:12px;}.logo img{height:65px;}nav ul{justify-content:center;}}
+.collaborate-banner{
+    width:100%;
+    padding:0;
+    margin:0;
+    background:#fff;
+}
+
+.collaborate-banner img{
+    display:block;
+    width:100%;
+    height:auto;
+}
